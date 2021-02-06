@@ -21,6 +21,6 @@ VOLUME /tmp
 
 EXPOSE 9080
 
-ADD target/Spring4MVCAngularJSExample docker-maven-RDS.jar
+ADD target/Spring4MVCAngularJSExample.jar docker-maven-RDS.jar
 
 ENTRYPOINT ["java","-jar","/docker-maven-RDS.jar"]
